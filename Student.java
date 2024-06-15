@@ -1,7 +1,7 @@
 public class Student implements Comparable<Student> {
 
-    public String name;
-    public int id;
+    protected String name;
+    protected int id;
 
     public Student(String name, int id) {
         this.name = name;
